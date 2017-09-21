@@ -1,6 +1,6 @@
-# Hello World Skill
+# skill-iot-demo
 
 ## Usage:
-* `hello world`
-* `how are you`
-* `thank you`
+* `turn on the lamp`
+* `make the color blue`
+* `feed the fish`
