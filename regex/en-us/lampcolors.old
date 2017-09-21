@@ -1,0 +1,1 @@
+(change to|change color to|change the color to|change the lamp color to|make the lamp) (?P<LampColor>.*)
