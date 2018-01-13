@@ -1,2 +1,2 @@
-(turn the lamp|desk lamp|bulb) (?P<CommandWord>.*)
+(turn the lamp|open the lamp|desk lamp|bulb) (?P<CommandWord>.*)
 

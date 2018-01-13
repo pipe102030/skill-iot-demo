@@ -1,6 +1,6 @@
-# skill-iot-demo
+# skill-SmartFurniture
 
 ## Usage:
-* `turn on the lamp`
+* `open on the lamp`
 * `make the color blue`
 * `feed the fish`

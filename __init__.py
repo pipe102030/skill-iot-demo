@@ -25,7 +25,7 @@ from mycroft.util.log import getLogger
 import requests
 
 
-__author__ = 'GregV','@lachendeKatze'
+__author__ = 'pipe102030'
 
 LOGGER = getLogger(__name__)
 
