@@ -1,0 +1,3 @@
+[submodule "skill-iot-demo"]
+	path = skill-iot-demo
+	url = https://github.com/pipe102030/skill-iot-demo.git

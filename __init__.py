@@ -51,10 +51,12 @@ class IotLampSkill(MycroftSkill):
 
     def handle_lamp_command_intent(self, message):
         action_word = message.data.get("Action")
+        device_word = message.data.get("DeviceName")
         LOGGER.info("Command word: " + action_word)
-        if action_word == "on":
-		self.speak_dialog("lamp.on")
-		r = requests.get('http://ip_here/lamp?cmd=1')
+        if action_word == "on" and device_word == "door" :
+		    self.speak_dialog("lamp.on")
+		    r = requests.get('http://ip_here/lamp?cmd=1')
+            
 	elif action_word == "off":
 		self.speak_dialog("lamp.off")
 		r = requests.get('http://ip_here/lamp?cmd=0')
